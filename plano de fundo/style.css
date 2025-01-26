@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+
+div.quadra {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+div#q1{
+    background-image: linear-gradient(to bottom, lightgreen, transparent);
+}
+
+div#q2{
+    background-image: linear-gradient(to top, purple, deeppink);
+}
+
+div#q3{
+    background-image: url(img/pattern001.png);
+}
+
+         /*espaso  aula 2*/ 
+
+div.quadrado{
+    border: 1px solid black;
+    width: 320px;
+    height: 320px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px
+}
+         
+div#q11{background-image: url(img/pattern004.png);
+    background-repeat: no-repeat;
+}
+
+div#q12{
+    background-image: url(img/pattern004.png);
+    background-repeat: repeat-x;
+}
+
+div#q13{
+    background-image: url(img/pattern004.png);
+    background-repeat: repeat-y;
+}
+
+         /*espaso aula 3*/ 
+
+
+div.bloco{
+    background-image: url(img/wallpaper003.jpg);
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div#q01{
+    background-position: left top;
+}
+
+div#q02{
+    background-position: left center;
+}
+
+div#q03{
+    background-position: right bottom;
+}
+
+div#q04{
+    background-position: center center;
+}
+
+
+         /*espaso aula 4*/ 
+
+
+div.grande{
+    height: 500px;
+    border: 1px solid black;
+
+}
+
+div#um{
+    background-image: url(img/FOTO.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+         /*espaso aula 5*/ 
+
+div.big{
+    height: 805px;
+    border: 1px solid black;
+    background-image: url(img/wallpaper003.jpg);
+    background-size: 100%;
+}
