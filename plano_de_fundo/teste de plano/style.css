@@ -2,13 +2,18 @@
 
 body{
     background-color: black;
-    background-image: url();
+    background-image: url(/plano_de_fundo/img/wallpaper002.jpg);
 }
 
 main{
     background-color: white;
-    width: 500px;
+    width: 400px;
     padding: 10px;
     margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
