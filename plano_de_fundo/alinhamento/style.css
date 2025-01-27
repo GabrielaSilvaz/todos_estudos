@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+
+#container{
+    position: relative;
+
+    height: 93vh;
+    padding: 10px;
+
+    background-size: 100% 100%;
+
+    background-image: url(/plano_de_fundo/img/target001.png);
+    background-color: purple;
+}
+
+#conteudo{
+    position: absolute;
+
+    top:50%;
+    left: 50%;
+
+    height: 200px;
+    width: 400px;
+    transform: translate(-50%,-50%);
+
+    background-size: 100% 100%;
+
+    background-image: url(/plano_de_fundo/img/target001.png);
+    background-color: yellow;
+}
